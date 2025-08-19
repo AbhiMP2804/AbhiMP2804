@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Abhishek Milind Patwardhan</h1>
 <h3 align="center">A passionate Software developer</h3>
-<img align="right" alt="coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbmLd7_YxMWW5d4FvNPUyQYEF4LUkTLW0-i00WfhwQA&s"
+<!-- <img align="right" alt="coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbmLd7_YxMWW5d4FvNPUyQYEF4LUkTLW0-i00WfhwQA&s" -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abhimp2804&label=Profile%20views&color=0e75b6&style=flat" alt="abhimp2804" /> </p>
 
 - 📫 How to reach me **abhimpat63@gmail.com**
