@@ -69,7 +69,7 @@
 
 ### 🐍 Contribution Snake  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/dist/github-contribution-grid-snake.svg" />
 </p>
 
 
