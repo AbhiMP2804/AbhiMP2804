@@ -1,11 +1,11 @@
 name: Generate Snake Animation
 
 permissions:
-  contents: write  # allow workflow to push
+  contents: write
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # needed to create new branch if it doesn't exist
+          fetch-depth: 0
 
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -26,12 +26,14 @@ jobs:
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push to Output Branch
+      - name: Setup Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Check if output branch exists
+      - name: Push to output branch safely
+        run: |
+          # Check if branch exists
           if git show-ref --verify --quiet refs/heads/output; then
             git checkout output
           else
@@ -39,9 +41,19 @@ jobs:
             git rm -rf .
           fi
 
-          # Move generated files to root of branch
-          mv github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg .
+          # Only move files if they exist
+          if [ -f github-contribution-grid-snake.svg ]; then
+            mv github-contribution-grid-snake.svg .
+          fi
+          if [ -f github-contribution-grid-snake-dark.svg ]; then
+            mv github-contribution-grid-snake-dark.svg .
+          fi
 
+          # Commit only if there are changes
           git add .
-          git commit -m "Update snake"
-          git push origin output --force
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update snake"
+            git push origin output --force
+          fi
