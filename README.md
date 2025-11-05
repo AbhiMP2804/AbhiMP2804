@@ -67,9 +67,9 @@
 
 ---
 
-### 🐍 Contribution Snake  
+### 🐍 Contribution Snake Dark (Optional)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/dist/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/master/dist/github-contribution-grid-snake-dark.svg" />
 </p>
 
 
