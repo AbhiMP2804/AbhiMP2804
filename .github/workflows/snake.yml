@@ -1,11 +1,11 @@
 name: Generate Snake Animation
 
 permissions:
-  contents: write 
+  contents: write  # allow workflow to push
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every midnight
+    - cron: "0 0 * * *"   # runs every midnight
   workflow_dispatch:
 
 jobs:
@@ -13,18 +13,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # needed to create new branch if it doesn't exist
 
-      - uses: Platane/snk@v3
-        id: snake-gif
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: AbhiMP2804
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "generated snake"
-          add: "dist"
+      - name: Push to Output Branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Check if output branch exists
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+          else
+            git checkout --orphan output
+            git rm -rf .
+          fi
+
+          # Move generated files to root of branch
+          mv github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg .
+
+          git add .
+          git commit -m "Update snake"
+          git push origin output --force
