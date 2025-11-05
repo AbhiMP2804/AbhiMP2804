@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -26,14 +26,13 @@ jobs:
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Setup Git
+      - name: Prepare output branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Push to output branch safely
-        run: |
-          # Check if branch exists
+          # Create output branch if it doesn't exist
+          git fetch origin output || true
           if git show-ref --verify --quiet refs/heads/output; then
             git checkout output
           else
@@ -41,13 +40,12 @@ jobs:
             git rm -rf .
           fi
 
-          # Only move files if they exist
-          if [ -f github-contribution-grid-snake.svg ]; then
-            mv github-contribution-grid-snake.svg .
-          fi
-          if [ -f github-contribution-grid-snake-dark.svg ]; then
-            mv github-contribution-grid-snake-dark.svg .
-          fi
+          # Move generated files (only if they exist)
+          for f in github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg; do
+            if [ -f "$f" ]; then
+              mv "$f" .
+            fi
+          done
 
           # Commit only if there are changes
           git add .
