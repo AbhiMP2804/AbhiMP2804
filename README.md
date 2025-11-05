@@ -1,23 +1,88 @@
-<h1 align="center">Hi 👋, I'm Abhishek Milind Patwardhan</h1>
-<h3 align="center">A passionate Software developer</h3>
-<!-- <img align="right" alt="coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbmLd7_YxMWW5d4FvNPUyQYEF4LUkTLW0-i00WfhwQA&s" -->
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=abhimp2804&label=Profile%20views&color=0e75b6&style=flat" alt="abhimp2804" /> </p>
+<h1 align="center">Hi 👋, I'm <span style="color:#4CAF50;">Abhishek Milind Patwardhan</span></h1>
+<h3 align="center">Software Developer | Java Backend Engineer | ML Enthusiast</h3>
 
-- 📫 How to reach me **abhimpat63@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/abhishek-milind-patwardhan-43028822a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/abhishek-milind-patwardhan-43028822a/" height="30" width="40" /></a>
-<a href="https://instagram.com/abhipat2804" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abhipat2804" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/abhimpat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="abhimpat" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/abhimp2804" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abhimp2804" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=abhimp2804&label=Profile+Visits&color=brightgreen&style=for-the-badge" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abhimp2804&show_icons=true&locale=en&layout=compact" alt="abhimp2804" /></p>
+### 🚀 About Me
+- 🎓 Master's in Computer Science @ University of Georgia (UGA)
+- 💻 Passionate about **Backend Engineering, Distributed Systems, and AI**
+- 🌱 Learning: **System Design | Spring Boot | Cloud (AWS, Docker)**
+- 🤝 Open to Collaboration on **Backend & AI-driven systems**
+- 📫 Email: **abhimpat63@gmail.com**
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abhimp2804&show_icons=true&locale=en" alt="abhimp2804" /></p>
+---
 
-<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abhimp2804&" alt="abhimp2804" /></p> -->
+### 🌐 Connect With Me
+<p align="left">
+<a href="https://www.linkedin.com/in/abhishek-milind-patwardhan-43028822a/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
+<a href="https://instagram.com/abhipat2804" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" width="40"/></a>
+<a href="https://www.hackerrank.com/abhimpat" target="_blank"><img src="https://skillicons.dev/icons?i=hackerrank" width="40"/></a>
+<a href="https://www.leetcode.com/abhimp2804" target="_blank"><img src="https://skillicons.dev/icons?i=leetcode" width="40"/></a>
+</p>
+
+---
+
+### 🛠️ Tech Stack
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,postgres,hibernate,aws,docker,python,flask,django,react,html,css,js,nodejs,linux,git,postman,tensorflow,pytorch,figma" />
+</p>
+
+> **Focus:** Java | Spring Boot | Microservices | Cloud | SQL
+
+---
+
+### 📊 GitHub Stats & Activity
+<p align="center">
+  <a href="https://github.com/abhimp2804">
+    <img src="https://github-readme-stats.vercel.app/api?username=abhimp2804&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=20" height="165" />
+  </a>
+  <a href="https://github.com/abhimp2804">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhimp2804&layout=compact&theme=tokyonight&hide_border=true&border_radius=20" height="165" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/abhimp2804">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhimp2804&theme=react-dark&hide_border=true&area=true&radius=12" />
+  </a>
+</p>
+
+---
+
+### 🔥 GitHub Streaks
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=abhimp2804&theme=react" />
+</p>
+
+---
+
+### 📈 Contribution Graph
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhimp2804&theme=react-dark&hide_border=true" />
+</p>
+
+---
+
+### 🐍 GitHub Contribution Snake
+<p align="center">
+<img src="https://github.com/abhimp2804/abhimp2804/blob/output/github-contribution-grid-snake.svg" />
+</p>
+
+---
+
+### 🎯 Goals
+- Build scalable backend systems
+- Deep dive into distributed systems & cloud
+- Apply ML to real-world applications
+
+---
+
+### ✨ Fun Fact
+> I turn coffee ☕ into clean code & creative solutions 🤖
+
+---
+
+⭐ **If you find my work useful, consider giving my repositories a star!** 🌟
