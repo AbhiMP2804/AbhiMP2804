@@ -58,13 +58,6 @@
 </p>
 
 
-### 🐍 Contribution Snake  
-<div align="center">
-  
-![Snake animation](https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/github-contribution-grid-snake.svg)
-
-</div>
-
 ---
 
 ### 📈 Contribution Graph
@@ -74,10 +67,11 @@
 
 ---
 
-### 🐍 GitHub Contribution Snake
+### 🐍 Contribution Snake  
 <p align="center">
-<img src="https://github.com/abhimp2804/abhimp2804/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/github-contribution-grid-snake.svg" />
 </p>
+
 
 ---
 
