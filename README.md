@@ -44,11 +44,6 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhimp2804&layout=compact&theme=tokyonight&hide_border=true&border_radius=20" height="165" />
   </a>
 </p>
-<p align="center">
-  <a href="https://github.com/abhimp2804">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhimp2804&theme=react-dark&hide_border=true&area=true&radius=12" />
-  </a>
-</p>
 
 ---
 
@@ -57,21 +52,26 @@
 <img src="https://streak-stats.demolab.com/?user=abhimp2804&theme=react" />
 </p>
 
-
 ---
 
 ### 📈 Contribution Graph
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhimp2804&theme=react-dark&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhimp2804&theme=react-dark&hide_border=true&area=true&radius=12" />
 </p>
 
 ---
 
 ### 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/master/dist/github-contribution-grid-snake-dark.svg" />
+  <!-- Light Mode -->
+  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/dist/github-contribution-grid-snake.svg" />
+  
+  <!-- Dark Mode -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/dist/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/dist/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
-
 
 ---
 
