@@ -20,7 +20,8 @@ jobs:
           ref: master
 
       - name: Generate Snake
-        uses: Platane/snk@v3
+        uses: Platane/snk@v3.2.0
+
         with:
           github_user_name: AbhiMP2804
           outputs: |
