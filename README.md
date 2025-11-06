@@ -41,7 +41,8 @@
     <img src="https://github-readme-stats.vercel.app/api?username=abhimp2804&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=20" height="165" />
   </a>
   <a href="https://github.com/abhimp2804">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhimp2804&layout=compact&theme=tokyonight&hide_border=true&border_radius=20" height="165" />
+    <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhimp2804&layout=compact&theme=tokyonight&hide_border=true&border_radius=20" height="165" /> -->
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhimp2804&layout=compact&count_private=true&langs_count=9&theme=tokyonight&hide=HTML,CSS,SCSS&border_radius=20" height="165" />
   </a>
 </p>
 
