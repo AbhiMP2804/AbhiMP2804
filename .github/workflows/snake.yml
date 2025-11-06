@@ -27,10 +27,10 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Store generated files
+      - name: Save generated files
         run: |
-          mkdir output_snk
-          cp dist/* output_snk/
+          mkdir snake
+          cp dist/* snake/
 
       - name: Switch to output branch
         run: |
@@ -41,20 +41,19 @@ jobs:
             git checkout --orphan output
           fi
 
-          # Only remove files if they exist
-          ls -A1 | xargs -I{} git rm -rf {} || true
+          # Remove old files in branch ONLY if they exist
+          git ls-files | xargs -r git rm -f
 
-      - name: Add and Commit snake files
+      - name: Commit new snake files
         run: |
-          cp output_snk/* .
-          rm -rf output_snk dist
-
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp snake/* .
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add .
-          git commit -m "Update snake" || echo "No changes to commit"
+          git commit -m "🐍 Update GitHub Contribution Snake" || echo "No changes to commit"
 
-      - name: Push to output branch
+      - name: Push output branch
         run: |
           git push origin output --force
