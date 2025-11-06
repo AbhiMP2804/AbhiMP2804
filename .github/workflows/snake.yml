@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -27,20 +27,26 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push snake to output branch
+      - name: Save generated files for later
         run: |
+          mkdir snake_files
+          cp dist/* snake_files/
+
+      - name: Switch to output branch
+        run: |
+          git fetch origin output || true
+          git checkout output 2>/dev/null || git checkout --orphan output
+          git reset --hard
+          git rm -rf .
+
+      - name: Move files to output branch and push
+        run: |
+          cp snake_files/* .
+          rm -rf snake_files dist
+
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git fetch origin output || true
-
-          git checkout --orphan output
-          git reset --hard
-
-          mv dist/* .
-
-          rm -rf dist
-
           git add .
-          git commit -m "Update snake" || echo "No changes to commit"
+          git commit -m "Update snake" || echo "No changes"
           git push origin output --force
