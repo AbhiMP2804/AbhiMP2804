@@ -50,6 +50,7 @@
 ### 🔥 GitHub Streaks
 <p align="center">
 <img src="https://streak-stats.demolab.com/?user=abhimp2804&theme=react" />
+  
 </p>
 
 ---
@@ -64,7 +65,7 @@
 ### 🐍 Contribution Snake
 <p align="center">
   <!-- Light Mode -->
-  <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/dist/github-contribution-grid-snake.svg" />
+  <!-- <img src="https://raw.githubusercontent.com/AbhiMP2804/AbhiMP2804/output/dist/github-contribution-grid-snake.svg" /> -->
   
   <!-- Dark Mode -->
   <picture>
@@ -83,7 +84,7 @@
 ---
 
 ### ✨ Fun Fact
-> I turn coffee ☕ into clean code & creative solutions 🤖
+> I turn tea 🍵 into clean code & creative solutions 🤖
 
 ---
 
