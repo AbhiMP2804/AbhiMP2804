@@ -19,9 +19,9 @@
 ### 🌐 Connect With Me
 <p align="left">
 <a href="https://www.linkedin.com/in/abhishek-milind-patwardhan-43028822a/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
-<a href="https://instagram.com/abhipat2804" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" width="40"/></a>
-<a href="https://www.hackerrank.com/abhimpat" target="_blank"><img src="https://skillicons.dev/icons?i=hackerrank" width="40"/></a>
-<a href="https://www.leetcode.com/abhimp2804" target="_blank"><img src="https://skillicons.dev/icons?i=leetcode" width="40"/></a>
+<!-- <a href="https://instagram.com/abhipat2804" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" width="40"/></a> -->
+<!-- <a href="https://www.hackerrank.com/abhimpat" target="_blank"><img src="https://skillicons.dev/icons?i=hackerrank" width="40"/></a>
+<a href="https://www.leetcode.com/abhimp2804" target="_blank"><img src="https://skillicons.dev/icons?i=leetcode" width="40"/></a> -->
 </p>
 
 ---
